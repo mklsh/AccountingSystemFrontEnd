@@ -1,3 +1,5 @@
+#Note
+The main purpose of this is to showcase the backend functionality and React code. This wasn't styled at all and the main purpose of this project is educational.
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
