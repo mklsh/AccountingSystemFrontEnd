@@ -16,8 +16,9 @@ const JournalEntryMenu =()=>{
 
     return (
         <div>
-            <h1>Add Journal Entry</h1>
+            <h1>Journal Entries</h1>
             <AddJournalEntryForm journalEntriesList={journalEntriesList} setJournalEntriesList={setJournalEntriesList}/>
+            <h2>Journal Entries List</h2>
             {journalEntriesList.map(je => <JournalEntry key={je.id} journalEntry={je} journalEntriesList={journalEntriesList} setJournalEntriesList={setJournalEntriesList} />)}
         </div>
     )

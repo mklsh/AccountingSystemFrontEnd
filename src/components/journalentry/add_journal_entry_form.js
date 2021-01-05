@@ -82,6 +82,7 @@ const AddJournalEntryForm = ({journalEntriesList, setJournalEntriesList})=>{
 
     return (
         <div>
+            <h2>Add Journal Entry</h2>
         <form onSubmit={addJournalEntry}>
             Date:<DateInput newJournalEntry={newJournalEntry} setNewJournalEntry={setNewJournalEntry}/>
             <table>

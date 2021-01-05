@@ -50,7 +50,7 @@ const AddAccountForm =({accountsList,setAccountsList})=>{
 
     return (
         <div>
-            <h1>Add Account</h1>
+            <h2>Add Account</h2>
             <form onSubmit={addAccount} >
              <ul>
                  <li>

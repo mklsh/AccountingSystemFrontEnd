@@ -5,6 +5,8 @@ import LegalEntityRowItem from "./entity_row_item";
 const AccountsTable = ({legalEntitiesList , setLegalEntitiesList}) =>{
 
     return (
+        <div>
+            <h2>Legal Entities List</h2>
         <table>
             <thead>
             <tr>
@@ -17,6 +19,7 @@ const AccountsTable = ({legalEntitiesList , setLegalEntitiesList}) =>{
             {legalEntitiesList.map(a => <LegalEntityRowItem key={a.name} legalEntity={a} setLegalEntitiesList={setLegalEntitiesList} legalEntitiesList={legalEntitiesList}/>)}
             </tbody>
         </table>
+        </div>
     )
 
 }

@@ -15,6 +15,7 @@ const LegalEntityMenu =()=>{
 
     return (
         <div>
+            <h1>Legal Entities</h1>
             <AddLegalEntityForm legalEntitiesList={legalEntityList} setLegalEntitiesList={setLegalEntityList} />
             <LegalEntityTable legalEntitiesList={legalEntityList} setLegalEntitiesList={setLegalEntityList}/>
         </div>

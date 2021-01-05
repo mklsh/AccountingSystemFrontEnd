@@ -50,7 +50,7 @@ const AddLegalEntityForm =({legalEntitiesList,setLegalEntitiesList})=>{
 
     return (
         <div>
-            <h1>Add Legal Entity</h1>
+            <h2>Add Legal Entity</h2>
             <form onSubmit={addLegalEntity} >
                 <ul>
                     <li>
